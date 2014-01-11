@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="HSQL Database Engine" version="2.2.8" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.8" uuid="9c8dbd08-85a2-46f1-98e7-62974686a703">
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+    <jdbc-url>jdbc:hsqldb:mem:demodb</jdbc-url>
+    <user-name>sa</user-name>
+    <schema-pattern>PUBLIC.PUBLIC</schema-pattern>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.8/hsqldb-2.2.8.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="PUBLIC" catalog="PUBLIC"/>
+  </data-source>
+</component>
